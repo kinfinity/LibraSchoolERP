@@ -60,9 +60,9 @@ routerList.forEach((routerName) => {
     routerName = `../routers/${routerName}`
     
     // Default route
-    // app.use('/SERPS/', async(req,res,next) => {
-    //     res.sendStatus(404).json({msg: 'WELCOME TO SERPS DEFAULT'})
-    // })
+    app.use('/', async(req,res,next) => {
+        res.sendStatus(200).json({msg: 'Server is LIVE!'})
+    })
 
     const routerModule = wrapper.requireF(routerName)
     app.use(routerModule)
