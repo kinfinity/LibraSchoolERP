@@ -1,0 +1,17 @@
+{
+  "name": "libraschoolerp",
+  "version": "1.0.0",
+  "description": "School ERP System",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "startup.sh"
+  },
+  "author": "k_infinity3",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.3"
+  }
+}
